@@ -1,0 +1,59 @@
+package com.taobao.inventory.misc.base;
+
+import com.alibaba.fastjson.serializer.JSONSerializer;
+import com.alibaba.fastjson.serializer.PropertyFilter;
+import com.alibaba.fastjson.serializer.SerializeConfig;
+import com.alibaba.fastjson.serializer.SerializeWriter;
+
+/**
+ * @author: lanbo <br>
+ * @version: 1.0 <br>
+ * @date: 2012-7-30
+ */
+public final class Jsons {
+	/**
+	 * 改用{@link MoreToStringBuilder#setIncludeFieldNames}
+	 * @param object
+	 * @return
+	 */
+	public static String toJson(Object object) {
+		SerializeWriter out = new SerializeWriter();
+
+		try {
+			SerializeWriter writer = new SerializeWriter();
+			JSONSerializer serializer = new JSONSerializer(writer, SerializeConfig.getGlobalInstance());
+
+			// 对于ItemDO、ItemSkuDO之类的做特殊处理，避免日志泛滥
+			serializer.getPropertyFilters().add(new PropertyFilter() {
+
+				@Override
+				public boolean apply(Object source, String name, Object value) {
+					String canonicalName = source.getClass().getCanonicalName();
+					if ("com.taobao.item.domain.ItemDO".equals(canonicalName)) {
+						if ("itemId".equals(name) || "featureString".equals(name) || "quantity".equals(name)) {
+							return true;
+						}
+
+						return false;
+					}
+
+					else if ("com.taobao.item.domain.ItemSkuDO".equals(canonicalName)) {
+						if ("skuId".equals(name) || "status".equals(name) || "quantity".equals(name)) {
+							return true;
+						}
+
+						return false;
+					}
+
+					return true;
+				}
+			}); 
+
+			serializer.write(object);
+
+			return serializer.toString();
+		} finally {
+			out.close();
+		}
+	}
+}

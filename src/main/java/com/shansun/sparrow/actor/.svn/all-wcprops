@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/inventoryplatform/!svn/ver/641/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor
+END
+ActorManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/ActorManager.java
+END
+Metrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/Metrics.java
+END
+ShutdownStrategies.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/ShutdownStrategies.java
+END
+DefaultActorManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/inventoryplatform/!svn/ver/692/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/DefaultActorManager.java
+END
+Actor.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/Actor.java
+END
+ThreadWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/ThreadWrapper.java
+END
+ActorManagerBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/inventoryplatform/!svn/ver/666/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/ActorManagerBuilder.java
+END
+Stat.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/inventoryplatform/!svn/ver/666/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/Stat.java
+END
+RejectedMessageHandlers.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/RejectedMessageHandlers.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/Constants.java
+END
+MessageRedcapCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/MessageRedcapCallback.java
+END
+RetryingExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/RetryingExecutor.java
+END
+ShutdownHooker.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/ShutdownHooker.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/Message.java
+END
+MessageWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/MessageWrapper.java
+END
+UnknownActor.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/UnknownActor.java
+END
+RejectedMessageHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/RejectedMessageHandler.java
+END
+MessageQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/inventoryplatform/!svn/ver/666/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/MessageQueue.java
+END
+MessageRedcapRunnable.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/inventoryplatform/!svn/ver/687/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/MessageRedcapRunnable.java
+END
+Actors.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/Actors.java
+END
+AbstractActor.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/AbstractActor.java
+END
+NoneMessageActor.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/NoneMessageActor.java
+END
+SimpleMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/SimpleMessage.java
+END
+ShutdownStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/inventoryplatform/!svn/ver/633/branches/V620_20120807/inventoryplatform/ip-misc/src/main/java/com/taobao/inventory/misc/actor/ShutdownStrategy.java
+END
