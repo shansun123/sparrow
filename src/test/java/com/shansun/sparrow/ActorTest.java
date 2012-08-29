@@ -9,12 +9,12 @@ import junit.framework.TestCase;
 
 import org.junit.Test;
 
-import com.shansun.sparrow.actor.AbstractActor;
-import com.shansun.sparrow.actor.Actor;
-import com.shansun.sparrow.actor.ActorManager;
-import com.shansun.sparrow.actor.ActorManagerBuilder;
-import com.shansun.sparrow.actor.Message;
-import com.shansun.sparrow.actor.SimpleMessage;
+import com.shansun.sparrow.actor.api.Actor;
+import com.shansun.sparrow.actor.api.Message;
+import com.shansun.sparrow.actor.builder.ActorManagerBuilder;
+import com.shansun.sparrow.actor.internal.SimpleMessage;
+import com.shansun.sparrow.actor.spi.AbstractActor;
+import com.shansun.sparrow.actor.spi.ActorManager;
 
 /**
  * @author: lanbo <br>
